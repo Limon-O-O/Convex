@@ -62,7 +62,7 @@ public class TabBarController: UITabBarController {
                     return
         }
 
-        self.viewControllers?.forEach {
+        viewControllers?.forEach {
             $0.willMoveToParentViewController(nil)
             $0.view.removeFromSuperview()
             $0.removeFromParentViewController()
