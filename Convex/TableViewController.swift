@@ -32,7 +32,7 @@ public class TabBarController: UITabBarController {
     static weak var plusButton: UIButton?
     static var tabbarItemsCount: Int = 0
 
-    init() {
+    private init() {
         super.init(nibName: nil, bundle: nil)
     }
 
