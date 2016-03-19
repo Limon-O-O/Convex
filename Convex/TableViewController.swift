@@ -29,13 +29,6 @@ public class TabBarController: UITabBarController {
         }
     }
 
-    public var rootWindow: UIWindow? {
-        guard let window = UIApplication.sharedApplication().delegate?.window else {
-            return nil
-        }
-        return window
-    }
-
     static weak var plusButton: UIButton?
     static var tabbarItemsCount: Int = 0
 
